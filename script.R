@@ -186,7 +186,7 @@ dta %>%
     alpha = 0.9
   ) +
   facet_wrap(facets = ~ city, scales = "free_y", nrow = 1) +
-  labs(x = "Relative Concentration Index", y= "") +
+  labs(x = "Relative Centralisation Index", y= "") +
   theme_bw() +
   scale_fill_manual(values = c("grey", "black"))
 
